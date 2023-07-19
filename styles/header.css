@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Optimistic-Text';
+    src: url('../fonts/Optimistic-Text.ttf');
+}
+
+#logo-ctn {
+    grid-area: logo-ctn;
+    display: grid;
+    justify-content: end;
+    align-content: end;
+}
+
+#logo {
+    width: 95px;
+    height: 19.5px;
+}
+
+.menu {
+    grid-area: menu;
+    display: grid;
+    column-gap: 50px;
+    padding-left: 36px;
+    grid-template-areas: "logo-ctn n1";
+    justify-items: center;
+}
+
+.n1 {
+    grid-area: n1;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas: "m1 m2 m3 m4";
+    align-items: end;
+    column-gap: 28px;
+}
+
+.n2 {
+    grid-area: n2;
+    display: grid;
+    grid-template-areas: "m5 m6 m7";
+    justify-items: center;
+    align-items: end;
+    column-gap: 30px;
+    padding-right: 45px;
+}
+
+/* nav items*/
+#menu1 {
+    grid-area: m1;
+}
+#menu2 {
+    grid-area: m2;
+}
+#menu3 {
+    grid-area: m3;
+}
+#menu4 {
+    grid-area: m4;
+}
+#menu5 {
+    grid-area: m5;
+}
+#menu6 {
+    grid-area: m6;
+}
+#menu7 {
+    grid-area: m7;
+}
+
+.n1 a, .n2 a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Optimistic-Text';
+    color: black;
+    font-weight: 500;
+}
+
+.n1 img, .n2 img{
+    height: 11px;
+    width: 11.5px;
+}

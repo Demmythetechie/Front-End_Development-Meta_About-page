@@ -1,0 +1,331 @@
+/* sc4-sub1 */
+.sc4-sub1 {
+    grid-area: sc4-sb1;
+    border: 1px solid;
+    display: grid;
+    justify-items: center;
+    row-gap: 20px;
+}
+/* sc4-sub1 items*/
+.sc4-sub1 h1 {
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+}
+.sc4-sub1 a {
+    font-size: 16px;
+    font-weight: 700;
+}
+.sc4-sub1 img {
+    width: 22px;
+    height: 22px;
+    border: 1px solid #BFC1C2;
+    border-radius: 50px;
+    padding: 3px;
+    margin-bottom: -5px;
+}
+
+
+/* sc4-sub2 */
+.sc4-sub2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    grid-template-areas:
+    "sc4-sub2-itm1 sc4-sub2-img";
+    grid-area: sc4-sb2;
+    align-content: center;
+    border-radius:  30px;
+    color: white;
+    font-weight: 500;
+    background-image: url("../images/sec-4-img1.jpg");
+    background-repeat: no-repeat;
+    background-size: 53% 100%;
+    background-position: 104% 50%;
+    height: 100%;
+}
+/* sc4-sub2 items*/
+.sc4-sub2-itm1 {
+    display: grid;
+    grid-area: sc4-sub2-itm1;
+    align-content: center;
+    background-color: #1c2b33;
+    justify-items: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.sc4-sub2-itm1-1 {
+    width: 74%;
+    display: grid;
+    justify-content: center;
+    row-gap: 15px;
+}
+.sc4-sub2-itm1-1 h1 {
+    font-size: 36px;
+}
+.sc4-sub2-itm1-1 p {
+    font-size: 16px;
+}
+.sc4-sub2-itm1-1 a {
+    font-size: 16px;
+    margin-top: 20px;
+}
+#sc4-sub2-itm1-1-Rw-arrow {
+    width: 22px;
+    height: 22px;
+    border: 1px solid #BFC1C2;
+    border-radius: 50px;
+    padding: 3px;
+    margin-bottom: -5px;
+}
+
+
+/* sc4-sub3 */
+.sc4-sub3 {
+    position: relative;
+    display: grid;
+    grid-template-areas: "sc4-sub3-img sc4-sub3-p";
+    grid-area: sc4-sb3;
+    border: 1px solid;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 18px;
+}
+/* sc4-sub3 items*/
+.sc4-sub3 img {
+    grid-area: sc4-sub3-img;
+    width: 7px;
+    height: 9px;
+}
+.sc4-sub3 p {
+    grid-area: sc4-sub3-p;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* sc4-sub4 */
+.sc4-sub4 {
+    display: grid;
+    position: relative;
+    grid-template-columns: 136px 30px 50% 35px;
+    grid-template-areas: "sc4-sb4-mn-img . sc4-sb4-p sc4-sb4-sb-img";
+    grid-area: sc4-sb4;
+    padding: 5px;
+    align-items: center;
+    background-color: #f1f4f7;
+}
+/* sc4-sub4 items*/
+.sc4-sub4 #mn-img {
+    grid-area: sc4-sb4-mn-img;
+    width: 135px;
+    height: 135px;
+}
+.sc4-sub4 p {
+    grid-area: sc4-sb4-p;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 500;
+}
+.sc4-sub4 #sb-img {
+    grid-area: sc4-sb4-sb-img;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #BFC1C2;
+    border-radius: 50px;
+    padding: 7px;
+}
+
+
+/* sc4-sub5 */
+.sc4-sub5 {
+    display: grid;
+    position: relative;
+    grid-template-columns: 136px 30px 30% 30% 35px;
+    grid-template-areas: "sc4-sb5-mn-img . sc4-sb5-p . sc4-sb5-sb-img";
+    grid-area: sc4-sb5;
+    padding: 5px;
+    align-items: center;
+    background-color: #f1f4f7;
+}
+/* sc4-sub5 items*/
+.sc4-sub5 #mn-img {
+    grid-area: sc4-sb5-mn-img;
+    width: 135px;
+    height: 135px;
+}
+.sc4-sub5 p {
+    grid-area: sc4-sb5-p;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 500;
+}
+.sc4-sub5 #sb-img {
+    grid-area: sc4-sb5-sb-img;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #BFC1C2;
+    border-radius: 50px;
+    padding: 7px;
+}
+
+
+/* sc4-sub6 */
+.sc4-sub6 {
+    grid-area: sc4-sb6;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* sc4-sub7 */
+.sc4-sub7 {
+    grid-area: sc4-sb7;
+    display: grid;
+    align-items: center;
+    row-gap: 25px;
+    grid-template-areas:
+    "sc4-sub7-img"
+    "sc4-sub7-h4"
+    "sc4-sub7-p"
+    "sc4-sub7-div";
+}
+/* sc4-sub7 items*/
+.sc4-sub7 img {
+    grid-area: sc4-sub7-img;
+    width: 100%;
+}
+.sc4-sub7 h4 {
+    grid-area: sc4-sub7-h4;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sc4-sub7 p {
+    grid-area: sc4-sub7-p;
+    font-size: 16px;
+    font-weight: 500;
+    color: #5d6f7c;
+}
+.sc4-sub7 div {
+    grid-area: sc4-sub7-div;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+}
+.sc4-sub7 #rd-m {
+    width: 22px;
+    height: 22px;
+    border: 1px solid #BFC1C2;
+    border-radius: 50px;
+    padding: 2px;
+}
+.sc4-sub7 #rd-m-p {
+    color: black;
+    font-weight: 600;
+}
+
+
+
+/* sc4-sub8 items*/
+.sc4-sub8 {
+    grid-area: sc4-sb8;
+    display: grid;
+    align-items: center;
+    row-gap: 25px;
+    grid-template-areas:
+    "sc4-sub8-img"
+    "sc4-sub8-h4"
+    "sc4-sub8-p"
+    "sc4-sub8-div";
+}
+/* sc4-sub8 items*/
+.sc4-sub8 img {
+    grid-area: sc4-sub8-img;
+    width: 100%;
+}
+.sc4-sub8 h4 {
+    grid-area: sc4-sub8-h4;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sc4-sub8 p {
+    grid-area: sc4-sub8-p;
+    font-size: 16px;
+    font-weight: 500;
+    color: #5d6f7c;
+}
+.sc4-sub8 div {
+    grid-area: sc4-sub8-div;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+}
+.sc4-sub8 #rd-m {
+    width: 22px;
+    height: 22px;
+    border: 1px solid #BFC1C2;
+    border-radius: 50px;
+    padding: 2px;
+}
+.sc4-sub8 #rd-m-p {
+    color: black;
+    font-weight: 600;
+}
+
+
+/* sc4-sub9 items */
+.sc4-sub9 {
+    grid-area: sc4-sb9;
+    display: grid;
+    align-items: center;
+    row-gap: 25px;
+    grid-template-areas:
+    "sc4-sub9-img"
+    "sc4-sub9-h4"
+    "sc4-sub9-p"
+    "sc4-sub9-div";
+}
+/* sc4-sub7 items*/
+.sc4-sub9 img {
+    grid-area: sc4-sub9-img;
+    width: 100%;
+}
+.sc4-sub9 h4 {
+    grid-area: sc4-sub9-h4;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sc4-sub9 p {
+    grid-area: sc4-sub9-p;
+    font-size: 16px;
+    font-weight: 500;
+    color: #5d6f7c;
+}
+.sc4-sub9 div {
+    grid-area: sc4-sub9-div;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+}
+.sc4-sub9 #rd-m {
+    width: 22px;
+    height: 22px;
+    border: 1px solid #BFC1C2;
+    border-radius: 50px;
+    padding: 2px;
+}
+.sc4-sub9 #rd-m-p {
+    color: black;
+    font-weight: 600;
+}

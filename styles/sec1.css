@@ -1,0 +1,74 @@
+@font-face {
+    font-family: optimistic_display_md;
+    src: url("../fonts/optimistic_display_md.ttf");
+}
+
+.sub1-ctn {
+    width: 33.5%;
+    word-break: break-word;
+}
+
+.sub1 {
+    grid-area: sub1;
+    font-size: 47px;
+    font-family: Optimistic-Text;
+    font-weight: 500;
+    text-align: center;
+    color: #1c2b33;
+}
+
+.sub2 {
+    grid-area: sub2;
+    font-size: 17px;
+    font-family: Optimistic-Text;
+    color: #1c2b33;
+    text-align: center;
+    font-weight: 600;
+}
+.sub2 img {
+    width: 22px;
+    height: 22px;
+    border: 1px solid #BFC1C2;
+    border-radius: 50px;
+    padding: 3px;
+    margin-bottom: -5px;
+}
+
+.sub3 {
+    grid-area: sub3;
+    display: grid;
+    grid-template-columns: 100% 100%;
+    grid-template-areas:
+    "itm1"
+    "itm2";
+    justify-items: center;
+    align-content: space-between;
+    row-gap: 120px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* sub3 items */
+#sub3-item1 {
+    grid-area: itm1;
+    margin-top: 60px;
+    width: 75%;
+}
+.sub3-item2 {
+    grid-area: itm2;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-content: space-between;
+    row-gap: 30px;
+    word-break: break-word;
+    width: 54%;
+}
+
+#itm2-child2 {
+    font-size: 36px;
+    font-family: Optimistic-Text;
+    font-weight: 500;
+    text-align: center;
+    color: #1c2b33;
+}

@@ -1,0 +1,98 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 6445px;
+    border: none;
+}
+
+body {
+    display: grid;
+    width: 100%;
+    height: 6445px;
+    grid-template-columns: 100%;
+    grid-template-rows: 60px 1430px 1080px 1250px 1750px 800px;
+    grid-template-areas:
+    "header"
+    "sec-1"
+    "sec-2"
+    "sec-3"
+    "sec-4"
+    "footer";
+    border: none;
+    row-gap: 2%;
+}
+
+header {
+    grid-area: header;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 50px;
+    grid-template-areas: "menu n2";
+    justify-content: space-between;
+    align-content: start;
+}
+
+.sec-1 {
+    grid-area: sec-1;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas:
+    "sub1"
+    "sub2"
+    "sub3";
+    align-content: start;
+    row-gap: 25px;
+    word-break: break-all;
+    justify-items: center;
+}
+
+.sec-2 {
+    grid-area: sec-2;
+    border: 1px solid;
+}
+
+.sec-3 {
+    border: 1px solid;
+    grid-area: sec-3;
+    display: grid;
+    grid-template-columns: 12.5% 15% 45% 15% 12.5%;
+    grid-template-areas:
+    ". . sec-3-ctn . ."
+    ". sub2 sub2 sub2 ."
+    ". sub3 sub3 sub3 .";
+    align-content: flex-start;
+    align-items: center;
+    row-gap: 50px;
+}
+
+.sec-4 {
+    grid-area: sec-4;
+    border: 1px solid;
+    display: grid;
+    align-items: center;
+    align-content: flex-start;
+    grid-template-rows: 7.8% 6% 29% 5% 1.5% 2% 137.5px 2% 1.5% 3%;
+    grid-template-columns: 8% 2% 1.5% 1% 11% 6% 5% 4% 9.5% 4% 9.5% 4% 5% 6% 11% 1% 1.5% 2% 8%;
+    grid-template-areas: 
+    ". . . . . . sc4-sb1 sc4-sb1 sc4-sb1 sc4-sb1 sc4-sb1 sc4-sb1 sc4-sb1  . . . . . ."
+    " . . . . . . . . . . . . . . . . . . ."
+    ". sc4-sb2 sc4-sb2 sc4-sb2 sc4-sb2 sc4-sb2 sc4-sb2 sc4-sb2 sc4-sb2 sc4-sb2 sc4-sb2 sc4-sb2 sc4-sb2 sc4-sb2 sc4-sb2 sc4-sb2 sc4-sb2 sc4-sb2 ."
+    " . . . . . . . . . . . . . . . . . . ."
+    ". . . sc4-sb3 sc4-sb3 sc4-sb3 sc4-sb3 . . . . . . . . . . . ."
+    " . . . . . . . . . . . . . . . . . . ."
+    ". . . . sc4-sb4 sc4-sb4 sc4-sb4 sc4-sb4 sc4-sb4 . sc4-sb5 sc4-sb5 sc4-sb5 sc4-sb5 sc4-sb5 . . . ."
+    " . . . . . . . . . . . . . . . . . . ."
+    ". . . sc4-sb6 sc4-sb6 . . . . . . . . . . . . . ."
+    " . . . . . . . . . . . . . . . . . . ."
+    ". . . sc4-sb7 sc4-sb7 sc4-sb7 sc4-sb7. sc4-sb8 sc4-sb8 sc4-sb8 . sc4-sb9 sc4-sb9 sc4-sb9 sc4-sb9 . . .";
+    font-family: Optimistic-Text;
+}
+
+footer {
+    grid-area: footer;
+}
